@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "description": "Portfolio Aman Papaney",
     "source": "src/index.html",
-    "homepage": "https://github.com/Aman-Papaney/myPortfolio#readme",
+    "homepage": "https://github.com/Aman-Papaney/portfolio#readme",
     "scripts": {
         "start": "parcel",
         "build": "parcel build",
-        "build-gh": "parcel build --public-url 'https://aman-papaney.github.io/myPortfolio'",
+        "build-gh": "parcel build --public-url 'https://aman-papaney.github.io/portfolio'",
         "predeploy": "npm run build-gh",
         "deploy": "gh-pages -d dist",
         "dev": "vite"

@@ -248,7 +248,7 @@ const ParticlesComponent = (props) => {
                         links: {
                             opacity: 0.5,
                         },
-                        radius: 60,
+                        radius: 30,
                     },
                     grab: {
                         distance: 100,
