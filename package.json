@@ -1,14 +1,14 @@
 {
-    "name": "Portfolio Aman Papaney",
+    "name": "Portfolio_Aman_Papaney",
     "version": "1.0.0",
     "description": "Portfolio Aman Papaney",
     "source": "src/index.html",
-    "homepage": "https://github.com/Aman-Papaney/portfolio#readme",
+    "homepage": "https://aman-papaney.github.io/portfolio",
     "scripts": {
         "start": "parcel",
         "build": "parcel build",
         "build-gh": "parcel build --public-url 'https://aman-papaney.github.io/portfolio'",
-        "predeploy": "npm run build-gh",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d dist",
         "dev": "vite"
     },
