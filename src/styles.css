@@ -164,10 +164,11 @@ img.socialIcon {
     font-weight: 300;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1110px) {
     .ProjectsContainer {
         display: flex;
         flex-direction: column;
+        min-width: 80%;
         flex-wrap: wrap;
     }
 
